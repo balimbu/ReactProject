@@ -7,7 +7,7 @@ const SearchResultsRow = ( {house} ) => {
     let onClickHandler = ()=>{
         navigate(`/searchedhouse/${house._id}`);
     }
-    console.log(house)
+    // console.log(house)
     return ( 
         <tr onClick={onClickHandler}>
             <td> {house.address}</td>

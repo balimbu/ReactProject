@@ -6,7 +6,7 @@ const Header = () => {
             <div className = "col-sm-4">
                 <img className = "img-thumbnail w-25" src = "logo.png" alt ="Logo here" /> </div>
             <div className = "col-sm-8 mt-4"> 
-                <h2> making world a better place..Houses to Homes</h2> 
+                <h2> Making world a better place..Houses to Homes</h2> 
             </div>
             
         </div>
