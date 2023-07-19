@@ -10,9 +10,10 @@ const SearchResultsRow = ( {house} ) => {
     // console.log(house)
     return ( 
         <tr onClick={onClickHandler}>
+            <td> <img src = "images/7.jpg" alt ={house._id} key = {house._id}/> </td>
             <td> {house.address}</td>
             <td> $ {house.price}</td>
-            <td> <img src = "images/7.jpg" alt ={house._id} key = {house._id}/> </td>
+            
         </tr>
      );
 }
